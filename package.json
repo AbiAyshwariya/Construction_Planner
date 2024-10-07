@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "python server/server.py"
+    "build": "pip install -r requirements.txt && python server/server.py"
   },
   "keywords": [],
   "author": "",
